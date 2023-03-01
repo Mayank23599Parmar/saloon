@@ -1,13 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import "./common.css";
+@import "./font-family.css";
+@import "./grid.css";
 :root {
-  --primary:#dd646e;
-  --secondary:#3ecf8e;
+  --primary: #dd646e;
+  --secondary: #3ecf8e;
 }
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-
-@layer base{
+@layer base {
   body {
     font-family: Poppins;
   }

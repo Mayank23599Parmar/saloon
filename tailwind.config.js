@@ -13,6 +13,11 @@ module.exports = {
         primary: "var(--primary)",
         secondary: "var(--secondary)",
       }
+      ,
+      boxShadow: {
+        'btn-shadow': '0 .5rem 1rem rgba(0,0,0,.15)',
+      }
+
     },
   },
   plugins: [],
