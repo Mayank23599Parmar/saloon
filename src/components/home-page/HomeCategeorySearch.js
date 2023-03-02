@@ -45,7 +45,6 @@ export default function HomeCategeorySearch() {
     }
     const submitHandler = (e) => {
         e.preventDefault()
-        console.log(category, location);
     }
     return (
         <form className='category-search-wrapper block md:flex items-center justify-between ' onSubmit={submitHandler}>
@@ -55,7 +54,7 @@ export default function HomeCategeorySearch() {
                         <i className="fa fa-location-arrow text-sm" ></i>
                     </div>
                     <div className='category mx-[10px]'>
-                        <p className='text-[11px] text-[#444]'>{category.value}</p>
+                        <p className='text-sm md:text-[11px] text-[#444]'>{category.value}</p>
                     </div>
                     <div className='category-drop-down'>
                         {
@@ -77,7 +76,7 @@ export default function HomeCategeorySearch() {
             </div>
             <div className='location-wrapper relative mb-3 w-full md:w-7/12 md:mr-2 '>
                 <div className='location-input'>
-                    <input type={"text"} onChange={onLocationChangeHandler} value={location} placeholder="Enter your delivery location" className='px-3 py-2 w-full rounded-md border-none outline-none' />
+                    <input type={"text"} onChange={onLocationChangeHandler} value={location} placeholder="Enter your delivery location" className='px-3 py-3 md:py-2 w-full text-sm md:text-base rounded-md border-none outline-none' />
                     <div className=' cursor-pointer location-icon-wrapper bg-[#ececec] rounded-md py-1 px-3 absolute top-1/2 -translate-y-1/2 right-1'>
                         <div>
                             <span><i className="fa fa-map-marker text-xs text-[#666] "></i></span>

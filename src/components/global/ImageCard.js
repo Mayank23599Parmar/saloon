@@ -21,7 +21,7 @@ export const ImageCard = () => {
                 <div className='image-card-wrapper row'>
                     {
                         CARD_IMAGE.map((image, index) => {
-                            return <div className='image col-md-3 col-6 mb-3 cursor-pointer' key={index}>
+                            return <div className='image col-md-3 col-6 px-1 md:px-[15px] mb-3 cursor-pointer ' key={index}>
                                 <Image src={image.src} alt={"image"} className="rounded-md" width={300} height={300} />
                             </div>
                         })

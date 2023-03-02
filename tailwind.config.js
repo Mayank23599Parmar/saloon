@@ -12,6 +12,7 @@ module.exports = {
       colors: {
         primary: "var(--primary)",
         secondary: "var(--secondary)",
+        bg_color:"var(--bg_color)"
       }
       ,
       boxShadow: {

@@ -7,6 +7,7 @@
 :root {
   --primary: #dd646e;
   --secondary: #3ecf8e;
+  --bg_color:#edf1f4;
 }
 @layer base {
   body {
